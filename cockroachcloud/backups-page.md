@@ -124,7 +124,7 @@ To restore a table:
 1. In the **Restore to** field, enter the name of the destination database.
 
     {{site.data.alerts.callout_info}}
-    [Resolve any naming conflicts](#resolve-a-table-naming-conflict) by using [`DROP`](../{{site.versions["stable"]}}/drop-table.html) or [`RENAME`](../{{site.versions["stable"]}}/rename-table.html) on the existing table. If you enter a unique name in the **Restore to** field, a new table will be created.
+    [Resolve any naming conflicts](#resolve-a-table-naming-conflict) by using [`DROP`](../{{site.versions["stable"]}}/drop-table.html) or [`RENAME`](../{{site.versions["stable"]}}/rename-table.html) on the existing table. If you enter a unique name in the **Restore to** field, a new database will be created.
     {{site.data.alerts.end}}  
 
 1. Select any of the **Dependency options** to skip. You can:
