@@ -566,6 +566,10 @@ div.tags {
   padding: 10px 5px;
 }
 
+div {
+  overflow-x:scroll;
+}
+
 .tabLabel {
   font-weight: normal;
 }
@@ -833,21 +837,21 @@ a.accordion-toggle {
   font-size: 13px;
   line-height: 1.5em;
   margin-bottom: 1px;
-} 
+}
 
 .redoc-json ol {
   font-family: Courier, monospace;
   font-size: 13px;
   line-height: 1.5em;
   margin-bottom: 1px;
-} 
+}
 
 .redoc-json li {
   font-family: Courier, monospace;
   font-size: 13px;
   line-height: 1.5em;
   margin-bottom: 1px;
-} 
+}
 
 .form-control {
   &:focus {
